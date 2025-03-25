@@ -12,9 +12,9 @@ class Root extends Component{
 
             <ul class="'d-flex' flex-column">
                 <t t-foreach="tasks" t-as="task" t-key="task">
-                    <p>hello</p>    
-                </t>
-                   
+                    <button class="btn btn-danger">Delete</button>
+                    <button class="btn btn-primary">Edit</button>    
+                </t>       
             </ul>
 
 
