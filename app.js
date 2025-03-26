@@ -16,7 +16,7 @@ class Task extends Component{
                     </label>
                 </div>
                 <div>
-                    <button class="btn btn-primary"  t-if="!state.isEditing" t-on-click="onEdit">Edit</button>
+                    <button class="btn btn-primary"  t-if="!state.isEditing" t-on-click="editTask">Edit</button>
                     <button class="btn btn-primary"  t-if="state.isEditing" t-on-click="saveTask">Save</button>    
                     <button  class="btn btn-danger" t-on-click="deleteTask">Delete</button>
                 </div>
